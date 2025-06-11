@@ -35,6 +35,15 @@ This is the first version of the project, with clean and well-structured data.
 
 ---
 
+## 📝 Note on File Versions
+
+- `books_import.py`: this is my original script used to read my Goodreads CSV and create the `Books` table. This version pulled genres from the "Bookshelves" column of my Goodreads csv file, which led to inaccurate genre classifications of the books, and I had to manually update the csv file with the correct genre.
+- `books_import_genre_column_updated.py`: this is the updated version with a manually corrected genre column. This script is the one used to create the clean, accurate `Books` table in the final database.
+
+Both files are included to show the evolution of the project and my learning process.
+
+---
+
 ## 🚀 How to Run
 
 Make sure you have the required libraries installed.  
