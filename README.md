@@ -29,7 +29,7 @@ This is the first version of the project, with clean and well-structured data.
 ---
 
 ## Files
-- `books.py`: creates the `Books` table
+- `books_import_genre_column_updated.py`: creates the `Books` table
 - `customers.py`: generates fake customer data
 - `purchases.py`: creates the `Purchases` table using joined data
 
