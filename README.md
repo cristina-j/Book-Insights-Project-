@@ -2,7 +2,7 @@
 
 As an avid reader with a slight book-buying addiction, I wanted to combine my love for reading with my growing skills in data analytics and QA automation. 
 
-This project tracks all the books I've read in 2024 and 2025 using Python and SQL, and serves as a foundation to showcase my ability to create, manipulate, and test data through realistic, hands-on projects.
+This project combines all the books I've read in 2024 and 2025 using Python and SQL, and serves as a foundation to showcase my ability to create, manipulate, and test data through realistic, hands-on projects.
 
 What started as a fun way to organize my reading list turned into a technical playground for learning database design, data validation, and automated testing.
 
