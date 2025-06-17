@@ -35,6 +35,18 @@ This is the first version of the project, with clean and well-structured data.
 
 ---
 
+📂 SQL-Only Table Scripts
+
+To demonstrate that I can also manually write SQL and create tables without relying on Python or CSVs, I created standalone `.sql` files for each table. These files show my ability to design clean, relational databases using SQL alone:
+
+- `books_table.sql` – Books catalog schema with sample data  
+- `customers_table.sql` – Customers table with sample Faker-style data  
+- `purchases_table.sql` – Purchases records referencing both books and customers 
+
+These scripts reflect proper data typing, constraints, and table relationships and are meant to highlight my SQL-only skills as part of this evolving project.
+
+---
+
 ## 📝 Note on File Versions
 
 - `books_import.py`: this is my original script used to read my Goodreads CSV and create the `Books` table. This version pulled genres from the "Bookshelves" column of my Goodreads csv file, which led to inaccurate genre classifications of the books, and I had to manually update the csv file with the correct genre.
