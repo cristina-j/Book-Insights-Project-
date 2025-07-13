@@ -16,7 +16,7 @@ book_df = pd.read_sql_query("SELECT Book_ID, Price, Published_Date FROM BOOKS", 
 num_purchases = 100
 purchases = []
 
-# convert published year to a date time object
+# convert published year to a date tme object
 year_start = date(2025, 1, 1)
 today = date.today()
 
@@ -34,10 +34,10 @@ for purchase_id in range (1, num_purchases + 1):
     if start_date.date() > today:
         start_date = today
 
-    # create a fake purchase date between publication date and today's date
+    # create a fake purchase date between the publication date and today's date
     purchase_date = fake.date_between(start_date=max(start_date.date(), year_start), end_date=today)
 
-    # generate random quantity and calculations of purchases - quantity caps at 5
+    # generate random quantity and calculations of purchases - can't purchase more than 5 books
     quantity = random.randint(1, 5)
     total_price = round(quantity * book_price, 2)
 
@@ -48,6 +48,9 @@ df_purchases = pd.DataFrame(
     purchases,
     columns=['Purchase_ID', 'Customer_ID', 'Book_ID', 'Purchase_Date', 'Quantity', 'Total_Price']
     )
+
+# line added 7/13/25 because I noticed that the Book_ID column was presented as a float instead of an integer
+df_purchases['Book_ID'] = df_purchases['Book_ID'].astype(int) 
 
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS Purchases (
