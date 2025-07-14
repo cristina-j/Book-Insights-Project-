@@ -89,7 +89,7 @@ This will create a database called "books.db" with all the books, customers, and
 
 ---
 
-✨ What I’m Learning
+## ✨ What I’m Learning
 
 - How to connect Python and SQL to create realistic, testable datasets
 - Data modeling and relationships between tables
@@ -98,6 +98,6 @@ This will create a database called "books.db" with all the books, customers, and
 
 ---
 
-Final Thoughts 
+## Final Thoughts 
 
-This is an evolving project and a reflection of my learning journey. If this project were a book, we’d still be in Chapter One. Come back for the plot twists. 📖✨
+This is an evolving project and a reflection of my learning journey. If this project were a book, we’d still be in Chapter One.
