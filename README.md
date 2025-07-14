@@ -11,7 +11,7 @@ What started as a fun way to organize my reading list turned into a technical pl
 ## Tech Stack
 
 - 🐍 Python (with Faker)
-- SQLite
+- DB Browser for SQLite
 - pandas
 
 ---
