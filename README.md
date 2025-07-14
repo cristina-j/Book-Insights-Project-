@@ -1,4 +1,4 @@
-# 📚 Book Insights Project
+# Book Insights Project 📚 
 
 As an avid reader with a slight book-buying addiction, I wanted to combine my love for reading with my growing skills in data analytics and QA automation. 
 
@@ -10,7 +10,7 @@ What started as a fun way to organize my reading list turned into a technical pl
 
 ## Tech Stack
 
-- 🐍 Python (with Faker)
+- Python (with Faker)
 - DB Browser for SQLite
 - pandas
 
@@ -35,7 +35,7 @@ This is the first version of the project, with clean and well-structured data.
 
 ---
 
-📂 SQL-Only Table Scripts
+## SQL-Only Table Scripts
 
 To demonstrate that I can also manually write SQL and create tables without relying on Python or CSVs, I created standalone `.sql` files for each table. These files show my ability to design clean, relational databases using SQL alone:
 
@@ -56,7 +56,7 @@ Both files are included to show the evolution of the project and my learning pro
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 Make sure you have the required libraries installed.  
 In your Terminal, run:
